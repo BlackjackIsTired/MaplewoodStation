@@ -59,11 +59,11 @@
 	var/allow_ai = 1					// allow ai job
 	var/hostedby = null
 	var/respawn = 1
-	var/respawn_delay=30
+	var/respawn_delay=5
 	var/respawn_as_mommi = 0
 	var/respawn_as_mouse = 1
 	var/guest_jobban = 1
-	var/usewhitelist = 0
+	var/usewhitelist = 1
 	var/kick_inactive = 0				//force disconnect for inactive players
 	var/load_jobs_from_txt = 0
 	var/ToRban = 0
@@ -79,7 +79,7 @@
 	var/disable_player_mice = 0
 	var/uneducated_mice = 0 //Set to 1 to prevent newly-spawned mice from understanding human speech
 
-	var/usealienwhitelist = 0
+	var/usealienwhitelist = 1
 	var/limitalienplayers = 0
 	var/alien_to_human_ratio = 0.5
 
@@ -172,7 +172,7 @@
 	var/skip_holominimap_generation = 0 //If 1, don't generate holominimaps
 	var/skip_vault_generation = 0 //If 1, don't generate vaults
 	var/shut_up_automatic_diagnostic_and_announcement_system = 0 //If 1, don't play the vox sounds at the start of every shift.
-	var/no_lobby_music = 0 //If 1, don't play lobby music, regardless of client preferences.
+	var/no_lobby_music = 1 //If 1, don't play lobby music, regardless of client preferences.
 	var/no_ambience = 0 //If 1, don't play ambience, regardless of client preferences.
 
 	var/enable_roundstart_away_missions = 0

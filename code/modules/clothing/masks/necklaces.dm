@@ -33,8 +33,8 @@
 	if(animal_type)
 		if(ispath(animal_type, /mob/living/carbon/human))
 			animal_name = "human teeth"
-			if(animal_type == /mob/living/carbon/human/skellington)
-				animal_name = "skellington teeth"
+//			if(animal_type == /mob/living/carbon/human/skellington)
+//				animal_name = "skellington teeth"
 			if(animal_type == /mob/living/carbon/human/tajaran)
 				animal_name = "tajaran teeth"
 		else

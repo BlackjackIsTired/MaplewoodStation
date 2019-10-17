@@ -18,9 +18,9 @@
 	real_name = "Manifested Ghost"
 	status_flags = GODMODE|CANPUSH
 
-/mob/living/carbon/human/manifested/New(var/new_loc, delay_ready_dna = 0)
-	underwear = 0
-	..(new_loc, "Manifested")
+//mob/living/carbon/human/manifested/New(var/new_loc, delay_ready_dna = 0)
+//	underwear = 0
+//	..(new_loc, "Manifested")
 
 /mob/living/carbon/human/skrell/New(var/new_loc, delay_ready_dna = 0)
 	..(new_loc, "Skrell")
@@ -47,15 +47,15 @@
 	my_appearance.h_style = "Bald"
 	regenerate_icons()
 
-/mob/living/carbon/human/skellington/New(var/new_loc, delay_ready_dna = 0)
-	..(new_loc, "Skellington", delay_ready_dna)
-	my_appearance.h_style = "Bald"
-	regenerate_icons()
+//mob/living/carbon/human/skellington/New(var/new_loc, delay_ready_dna = 0)
+//	..(new_loc, "Skellington", delay_ready_dna)
+//	my_appearance.h_style = "Bald"
+//	regenerate_icons()
 
-/mob/living/carbon/human/skelevox/New(var/new_loc, delay_ready_dna = 0)
-	..(new_loc, "Skeletal Vox")
-	my_appearance.h_style = "Bald"
-	regenerate_icons()
+//mob/living/carbon/human/skelevox/New(var/new_loc, delay_ready_dna = 0)
+//	..(new_loc, "Skeletal Vox")
+//	my_appearance.h_style = "Bald"
+//	regenerate_icons()
 
 /mob/living/carbon/human/plasma/New(var/new_loc, delay_ready_dna = 0)
 	..(new_loc, "Plasmaman")
