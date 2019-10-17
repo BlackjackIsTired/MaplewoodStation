@@ -63,7 +63,7 @@
 	var/respawn_as_mommi = 0
 	var/respawn_as_mouse = 1
 	var/guest_jobban = 1
-	var/usewhitelist = 1
+	var/usewhitelist = 0
 	var/kick_inactive = 0				//force disconnect for inactive players
 	var/load_jobs_from_txt = 0
 	var/ToRban = 0
